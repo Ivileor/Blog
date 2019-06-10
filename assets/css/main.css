@@ -1,0 +1,84 @@
+#my_osm_widget_map { /* use the same name as <div id=""> */
+    height: 400px;
+    margin: 0;
+    border-radius: 5px;
+    /* ... */
+}
+
+#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#carouselExampleCaptions
+{
+    height: 100%;
+
+}
+
+#carouselExampleCaptions .carousel-inner
+{
+    height:100%;
+
+}
+
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
+}
+
+.card-img-top{
+    object-fit: cover;
+    transition: transform .2s;
+
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.card-title{
+    text-align: center;
+
+}
+
+#button{
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
+
+.jumbotron.jumbotron-fluid{
+    background-color: ghostwhite;
+}
+
+#envoyer{
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+}
+
+#footer{
+    background-color: ghostwhite;
+    margin-top: 3rem;
+}
+
+#mentions{
+    text-align: center;
+}
+
+#list-footer{
+    list-style-type: none;
+    text-align: center;
+}
+
+#footer-sn{
+    margin-left: 37%;
+    margin-right: 33%;
+    display: block;
+}
